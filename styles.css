@@ -1,0 +1,254 @@
+/* -- General rules -- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -- Font styles and colors -- */
+
+/* General */
+
+header,
+.first-section,
+.fourth-section,
+footer {
+    padding: 0 20vw;
+}
+
+.second-section {
+	background-color: #181a1b;
+}
+
+.second-section,
+.third-section {
+    padding: 0 27vw;
+}
+
+/* Header and first section */
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 45px;
+}
+
+.secondary-text-2 {
+    color: #1F2937;
+}
+
+.secondary-text,
+.secondary-text-2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-logo-text {
+    color: #F9FAF8;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+a {
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 0.5em;
+    color: #E5E7EB;
+    font-weight: 700;
+    background-color: #3882F6;
+    font-size: 15px;
+}
+
+/* Second section */
+
+.card-border {
+    border: 3px solid #3882F6;
+    border-radius: 1em;
+}
+
+.call-to-action-background {
+    background-color: #3882F6;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Third section */
+
+.quote-section-background {
+    background-color: #989898;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin: 0;
+    padding-left: 75px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 0;
+    padding-right: 35px;
+}
+
+/* Fourth section */
+
+.sign-up-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.sign-up-button-2 {
+    border: 2.5px solid #F9FAF8;
+}
+
+/* Footer */
+
+.footer-text {
+    color: #E5E7EB;
+    margin: 0;
+    text-align: center;
+}
+
+/* -- Align elements -- */
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* First section */
+
+.first-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    gap: 75px;
+}
+
+.first-section-group,
+.img-placeholder {
+    flex: 1;
+}
+
+.img-placeholder {
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.first-section-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.first-section-description {
+    margin-bottom: 18px;
+}
+
+/* Second section */
+
+.second-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.card-group {
+    max-width: 160px;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #F9FAF8;
+}
+
+/* Third section */
+
+.third-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+/* Fourth section */
+
+.sign-up-container {
+    margin: 100px 0;
+    padding: 50px 100px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
