@@ -1,0 +1,7 @@
+{
+  "name": "Epic Beats",
+  "songs": [
+    { "artist": "Various Artists", "album": "Geometry Dash", "path": "At the Speed of Light.mp3" },
+    { "artist": "Various Artists", "album": "Geometry Dash", "path": "Deadlocked.mp3" }
+  ]
+}
